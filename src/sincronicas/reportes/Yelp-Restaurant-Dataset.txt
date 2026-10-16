@@ -1,0 +1,50 @@
+REPORTE DEL DATAFRAME
+============================================================
+Filas: 64629
+Columnas: 15
+Duplicados: 0
+
+Columnas y tipos:
+- Unnamed: 0: int64
+- business_id: object
+- name: object
+- address: object
+- city: object
+- state: object
+- postal_code: object
+- latitude: float64
+- longitude: float64
+- stars: float64
+- review_count: int64
+- is_open: int64
+- attributes: object
+- categories: object
+- hours: object
+
+Valores nulos por columna:
+- Unnamed: 0: 0
+- business_id: 0
+- name: 0
+- address: 738
+- city: 0
+- state: 0
+- postal_code: 26
+- latitude: 0
+- longitude: 0
+- stars: 0
+- review_count: 0
+- is_open: 0
+- attributes: 877
+- categories: 0
+- hours: 9336
+
+Estadísticas numéricas:
+       Unnamed: 0   latitude  longitude      stars  review_count    is_open
+count   64629.000  64629.000  64629.000  64629.000     64629.000  64629.000
+mean    75288.426     36.969    -88.096      3.546        76.601      0.690
+std     43441.879      6.019     14.025      0.854       173.369      0.462
+min         3.000     27.564   -120.084      1.000         5.000      0.000
+25%     37483.000     32.207    -90.248      3.000        12.000      0.000
+50%     75642.000     39.479    -86.049      3.500        28.000      1.000
+75%    112839.000     39.958    -75.347      4.000        75.000      1.000
+max    150340.000     53.679    -74.661      5.000      7568.000      1.000

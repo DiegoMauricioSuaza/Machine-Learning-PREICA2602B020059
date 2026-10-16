@@ -7,7 +7,6 @@ import pandas as pd
 
 FileType = Literal["csv", "json", "parquet", "xlsx"]
 
-
 class HFDatasetLoader:
     """Descarga un dataset de Hugging Face y lo devuelve como DataFrame.
 
